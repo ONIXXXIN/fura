@@ -1,0 +1,2 @@
+# fura
+samaya luchshaya fura
