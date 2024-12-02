@@ -1,0 +1,18 @@
+body{
+    background-color: #0e8225;
+}
+a{
+    font-size: 19px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0a0404;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+
+}
+a:hover{
+    background-color: #0a0404;
+    color: #ffffff;
+    padding: 14px;
+}
