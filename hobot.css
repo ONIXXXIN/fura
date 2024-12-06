@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body{
     background-color: #0e8225;
+    font-family: "Shantell Sans", cursive;
+    text-align: center;
 }
 a{
     font-size: 19px;
@@ -15,4 +18,13 @@ a:hover{
     background-color: #0a0404;
     color: #ffffff;
     padding: 14px;
+}
+
+input{
+    padding: 15px;
+    border-radius: 15px;
+}
+input:focus{
+    border: 2px solid #ffffff;
+    outline: none;
 }
