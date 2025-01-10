@@ -1,0 +1,15 @@
+Свойства CSS контролируют визуальное отображение элементов,
+такие как цвета, шрифты, отступы, размеры, расположение и другие аспекты дизайна
+
+https://www.youtube.com/watch?v=Gy0OsxjTaqI
+
+   def on_button_click():
+    print("Кнопка была нажата!")
+
+root = tk.Tk()
+root.title("Пример с кнопкой")
+
+button = tk.Button(root, text="Нажми меня", command=on_button_click)
+button.pack(pady=20)  # Размещаем кнопку в окне с отступами
+
+root.mainloop()
