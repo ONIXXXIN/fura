@@ -19,10 +19,11 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from app_ratatui.views import LososbListView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name = "long.html"),),
-    path('portfolio/', TemplateView.as_view(template_name = "portfolio.html"),)
+    path('portfolio/', LososbListView.as_view(),)
 ]
 
 if settings.DEBUG:
