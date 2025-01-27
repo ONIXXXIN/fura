@@ -1,17 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{% static 'css/kebab.css' %}">
     <meta charset="UTF-8">
     <title>gold free</title>
 </head>
 <body>
 {%for ben in projects%}
+<div>
     <p>{{ben.NamesProjects}}</p>
     <p>{{ben.DescriptionProjects}}</p>
     <p>{{ben.LinkProjects}}</p>
     <p>{{ben.SourceProjects}}</p>
     <p>{{ben.ImageProjects.url}}</p>
 <img src="{{ben.ImageProjects.url}}" alt="" style="width: 30%;">
+</div>
 {% endfor %}
 
 </body>
