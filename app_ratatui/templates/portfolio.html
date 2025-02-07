@@ -7,25 +7,23 @@
     <title>gold free</title>
 </head>
 <body>
-{%for ben in projects%}
-<div>
-    <div class="donatepls">{{ben.NamesProjects}}</div>
-<!--    <p>{{ben.DescriptionProjects}}</p>-->
-<!--    <p>{{ben.LinkProjects}}</p>-->
-<!--    <p>{{ben.SourceProjects}}</p>-->
-<!--    <p>{{ben.ImageProjects.url}}</p>-->
-<img src="{{ben.ImageProjects.url}}" alt="" >
-</div>
-{% endfor %}
-
+    {%for ben in projects%}
+        <div class="block">
+            <img src="{{ben.ImageProjects.url}}" alt="" >
+            <div class="hidden-text">{{ben.NamesProjects}}</div>
+        </div>
+    {% endfor %}
 </body>
 </html>
 
 <!--python manage.py runserver 0.0.0.0:8000-->
 <!--http://192.168.0.28:8000/-->
 
-
-
+<!--1. Узнать в чём разница между гпб и ргба-->
+<!--2. К классу див хидден-текст применить бэкграунд-колор ргба (сделать слегка чёрным полупрозрачным)-->
+<!-- - Посмотреть результат и оставить, даже если не понравится :)) потом уберём-->
+<!--3. Загуглить: как поставить иконку на сайте в джанго.-->
+<!-- - Найти какую-то иконку (любой логотип) и поставить его на страничке ;)-->
 
 
 
