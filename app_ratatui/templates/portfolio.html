@@ -5,12 +5,25 @@
     <link rel="stylesheet" href="{% static 'css/kebab.css' %}">
     <meta charset="UTF-8">
     <title>gold free</title>
-    <link rel="shortcut icon" type="image/png" href="{% static 'nojnitsi.ico' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'ejic.ico' %}">
 </head>
 <body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
     {%for ben in projects%}
         <div class="block">
-            <img src="{{ben.ImageProjects.url}}" alt="" >
+<!--            <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%91%D0%B6">-->
+                <img src="{{ben.ImageProjects.url}}" alt="">
+<!--            </a>-->
             <div class="hidden-text">{{ben.NamesProjects}}</div>
         </div>
     {% endfor %}

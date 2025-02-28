@@ -48,3 +48,5 @@ img {
 .block:hover .hidden-text {
     opacity: 1; /* прозрачность выключена */
 }
+nav ul  {list-style: none;display: flex;}
+nav ul li {margin: 0 10px; }
