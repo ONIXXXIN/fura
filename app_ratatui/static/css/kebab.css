@@ -64,3 +64,13 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+
+li a {
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #12E000;
+  text-decoration: underline;
+}
