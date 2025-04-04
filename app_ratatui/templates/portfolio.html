@@ -1,26 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="{% static 'css/kebab.css' %}">
-    <meta charset="UTF-8">
-    <title>gold free</title>
-    <link rel="shortcut icon" type="image/png" href="{% static 'ejic.ico' %}">
-</head>
-<body>
+{% extends 'lockdown.html'%}
 
-    <header>
-        <nav>
-            <ul>
-
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li><input type="search" placeholder="search🔍"></li>
-            </ul>
-        </nav>
-    </header>
+{% block ak47 %}
     <div class="salam">
     {%for ben in projects%}
         <div class="block">
@@ -31,44 +11,8 @@
         </div>
     {% endfor %}
     </div>
-    <button onclick="hyrugwai()">
-        lowkic
-    </button>
-    <script>
-        alert(" taina сосо");
-        console.log("10 let kak pod narkozom");
-<!--        let falcon = 5252;-->
-<!--        let flacon = 228;-->
-<!--        console.log(falcon+flacon);-->
-<!--        console.log(falcon-flacon);-->
-<!--        console.log(falcon*flacon);-->
-<!--        console.log(falcon<flacon);-->
-<!--        console.log(falcon>flacon);-->
-<!--        console.log(falcon==flacon);-->
-<!--        console.log(falcon/flacon);-->
-<!--        console.log(falcon%flacon);-->
-    <!--        let joke = prompt("слыш те сколько по паспорту недоросток");-->
-    <!--        confirm("aiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii dolya vorovskaya kak ne ludskaya");-->
-    <!--        if (joke < 12){-->
+{% endblock ak47 %}
 
-    <!--            alert("чо ты лысый, на пуджа хотел посмотреть, а нет ты еще бактерия таким нельзя");}-->
-        // let i =600;
-        // while (i > 0) {
-        //        console.log("kik");
-        //        i--;
-        // }
-        function hyrugwai(){
-        console.log("el primo");
-
-        }
-
-
-    </script>
-</body>
-</html>
-
-<!--python manage.py runserver 0.0.0.0:8000-->
-<!--http://192.168.0.28:8000/-->
 
 
 
