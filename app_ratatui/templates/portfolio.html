@@ -3,8 +3,8 @@
 {% block ak47 %}
     <div class="salam">
     {%for ben in projects%}
+        <a href="{{ben.LinkProjects}}"></a>
         <div class="block">
-<!--                <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%91%D0%B6">-->
                 <img src="{{ben.ImageProjects.url}}" alt="">
                 </a>
             <div class="hidden-text">{{ben.NamesProjects}}</div>
