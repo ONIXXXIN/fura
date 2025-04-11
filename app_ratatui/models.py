@@ -16,4 +16,4 @@ class ProjectsModel(models.Model):
     def __str__(self):
         return f"{self.NamesProjects}//////{self.created_at}"
 
-ЗАПУУУУУУУУУУУУУУУШЬ КОД ВАДЯ 😁😁 ffffffff
+ # ЗАПУУУУУУУУУУУУУУУШЬ КОД ВАДЯ 😁😁 ffffffff
