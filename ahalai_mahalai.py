@@ -4,19 +4,18 @@ class Chelovek:
     imya = "Azamat Muhamedov"
     profesiya = "hod konem"
     Mesto_Jitelstva = "Shai_lyshai"
+    pol = "laminat"
+    mashina = "shaitan mashina"
+    jena = "posudomoika"
+    muj = "svarshik"
     def letat(self):
-        pass
+        print("yraaaaaaa ya zaletel")
+    def kakat(self):
+        print("yraaaaaaaaaaa ya pokakal")
 
-
+stas_yarushin = Chelovek()
+stas_yarushin.kakat()
 
 
 """
-1. Узнать, что такое ООП в питоне
-2. Что такое наследование + полиморфизм (это не болезнь) + абстракция
-3. Для чего вообще нужны классы, как они облегчают нам жизнь
-4. Зачем нужен селф в классах?
-5. ДОписать внутри класса "Человек" просто какие-то ещё функции (рандомные), как по типу летать
-[e6. Сп[росить у гпт - ^^что такое кземпляр класса? {В об[щем, попросить его объхяснить таку, как буйдто для ребёнка
-и новичкуа в питоне
-
 """
